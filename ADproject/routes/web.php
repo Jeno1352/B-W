@@ -40,7 +40,10 @@ Route::get('FAQ',function (){
 });
 
 
+Route::get('/w1',function (){
 
+    return view('Workout1');
+});
 
 
 
